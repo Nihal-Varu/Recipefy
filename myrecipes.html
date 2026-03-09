@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Recipes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+
+<img src="logo.png">
+
+<a href="dashboard.html">Home</a>
+<a href="explore.html">Explore</a>
+<a href="myrecipes.html">My Recipes</a>
+
+</nav>
+
+<div class="main">
+
+<h2>Add Recipe</h2>
+
+<input id="title" placeholder="Recipe name">
+
+<select id="category">
+<option>Breakfast</option>
+<option>Lunch</option>
+<option>Dinner</option>
+<option>Drinks</option>
+<option>Snacks</option>
+<option>Desserts</option>
+<option>Salads</option>
+<option>Fast Food</option>
+<option>Healthy</option>
+<option>Vegetarian</option>
+</select>
+
+<input id="image" placeholder="Image URL">
+
+<textarea id="description" placeholder="Recipe description"></textarea>
+
+<button onclick="addRecipe()">Post Recipe</button>
+
+<h2>Your Recipes</h2>
+
+<div id="myList" class="recipe-grid"></div>
+
+</div>
+
+<script src="recipes.js"></script>
+
+</body>
+</html>

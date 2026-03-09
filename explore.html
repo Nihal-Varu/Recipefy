@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Explore</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+
+<img src="logo.png">
+
+<a href="dashboard.html">Home</a>
+<a href="explore.html">Explore</a>
+<a href="myrecipes.html">My Recipes</a>
+
+</nav>
+
+<div class="main">
+
+<h2>Explore Recipes</h2>
+
+<button onclick="filter('Breakfast')">Breakfast</button>
+<button onclick="filter('Lunch')">Lunch</button>
+<button onclick="filter('Dinner')">Dinner</button>
+<button onclick="filter('Drinks')">Drinks</button>
+<button onclick="filter('Snacks')">Snacks</button>
+<button onclick="filter('Desserts')">Desserts</button>
+<button onclick="filter('Salads')">Salads</button>
+<button onclick="filter('Fast Food')">Fast Food</button>
+<button onclick="filter('Healthy')">Healthy</button>
+<button onclick="filter('Vegetarian')">Vegetarian</button>
+
+<div id="recipeList" class="recipe-grid"></div>
+
+</div>
+
+<script src="recipes.js"></script>
+
+</body>
+</html>
